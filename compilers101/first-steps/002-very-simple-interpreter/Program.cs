@@ -13,7 +13,7 @@ namespace VerySimpleInterpreter
         {
 
 var st = new SymbolTable();
-string Caminho = "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Códigos\\C#\\testecomp.txt";
+string Caminho = "path.txt";
 var arq = new StreamReader(Caminho);
 var basicLexer = new BasicLexer(arq, st);
 var basicParser = new BasicParser(basicLexer, st);
